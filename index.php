@@ -37,7 +37,7 @@
 		$fileandurl = explode(":", $file);
 
 		if (strpos($fileandurl[0], ".css") === false)
-			echo "<a href='/?page=" . $fileandurl[0] . "'>" . $fileandurl[0] . "</a><br />";
+			echo "<a href='?page=" . $fileandurl[0] . "'>" . $fileandurl[0] . "</a><br />";
 	}
 
 	echo "<br/>Stylesheet list:<br />";
